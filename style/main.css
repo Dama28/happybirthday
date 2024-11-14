@@ -109,11 +109,11 @@ body {
 }
 
 .six .hat {
-  left: 10%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
-  width: 80px;
+  top: -15%; /* Adjust this percentage to position the hat vertically */
+  left: 50%; /* Center the hat horizontally */
+  transform: translateX(-50%); /* Center the hat exactly above the head */
+  width: 80px; /* Adjust the width as needed */
 }
 
 .baloons img {
@@ -228,25 +228,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 15%;
+    left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 20%;
+    left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 25%;
+    left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 30%;
+    left: 32%;
   }
 }
 
