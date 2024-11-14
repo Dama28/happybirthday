@@ -111,9 +111,9 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
+  top: -15%;  /* Adjust to bring the hat closer to the head */
+  left: 48%;  /* Adjust to center the hat */
+  transform: translateX(-50%); /* Centers the hat exactly above the head */
 }
 
 .baloons img {
