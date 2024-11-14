@@ -110,12 +110,13 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 60px; /* Adjust size if necessary */
-  top: -120px; /* Move higher on larger screens */
-  left: 52%; /* Center horizontally */
-  transform: translate(-50%, 0);
-  z-index: 10; /* Ensure it appears above other elements */
+  width: 60px;      /* Adjust size as needed */
+  top: -80px;       /* Increase or decrease this value to move the hat up/down */
+  left: 50%;        /* Center the hat horizontally */
+  transform: translate(-50%, 0); /* Center it exactly on the head */
+  z-index: 10;
 }
+
 .baloons img {
   display: inline-block;
   position: absolute;
