@@ -225,49 +225,6 @@ body {
   z-index: 3;
 }
 
-/* Media Queries Adjustments */
-@media screen and (max-width: 1200px) {
-  .six .hat {
-    top: -110px; /* Move higher for medium-sized screens */
-    left: 51%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .six .hat {
-    top: -100px; /* Higher on smaller screens */
-    left: 50%;
-  }
-}
-
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    top: -105px; /* Higher for medium heights */
-    left: 50%;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .six .hat {
-    top: -95px; /* Adjust for shorter screen heights */
-    left: 49%;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    top: -90px; /* Adjust further for shorter heights */
-    left: 47%;
-  }
-}
-
-/* For very small screens, adjust further */
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    top: -85px;
-    left: 45%;
-  }
-}
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
